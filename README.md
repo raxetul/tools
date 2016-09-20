@@ -1,3 +1,3 @@
 # tools
 
-Farklı dillerde yazdığım araçlar
+Some tools that I write in different languages
