@@ -18,6 +18,6 @@ def rmFiles(path, pattern):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', help='Directory path for file looking')
-    parser.add_argument('-p', default=None, help='Prefix of the file')
+    parser.add_argument('-p', default=None, help='Postfix of the file')
     args = parser.parse_args()
     rmFiles(args.d, args.p)
